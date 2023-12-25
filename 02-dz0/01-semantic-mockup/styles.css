@@ -1,0 +1,81 @@
+:root {
+    --indianred: #CD5C5C;
+    --crimson: #DC143C;
+    --lightsalmon: #FFA07A;
+    --orange: #FFA500;
+    --lightgreen: #90EE90;
+    --green: #008000;
+    --lightblue: #ADD8E6;
+    --dodgerblue: #1E90FF;
+    --lavender: #C8C8F4;
+    --slateblue: #6A5ACD;
+    --white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    color: var(--white);
+    font-size: 16px;
+}
+
+h1 {
+    height: 8vh;
+    padding: 15px;
+}
+
+header {
+    height: 15vh;
+    text-align: center;
+    background-color: var(--indianred);
+    border: 5px solid var(--crimson);
+}
+
+nav {
+    height: 6vh;
+    padding: 15px;
+    text-align: center;
+    background-color: var(--lightsalmon);
+    border: 5px solid orange;
+}
+
+a {
+    margin-right: 10px;
+    color: var(--white);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+main {
+    height: 70vh;
+    padding: 30px;
+    background-color: var(--lightgreen);
+    border: 5px solid var(--green);
+}
+
+article {
+    padding: 30px;
+    margin: 10px;
+    height: 30vh;
+    font-size: 25px;
+    background-color: var(--lightblue);
+    border: 5px solid var(--dodgerblue);
+}
+
+ol, ul {
+    padding: 30px;
+}
+
+footer {
+    height: 15vh;
+    padding: 30px;
+    text-align: center;
+    background-color: var(--lavender);
+    border: 5px solid var(--slateblue);
+}
