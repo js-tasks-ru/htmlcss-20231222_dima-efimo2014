@@ -1,6 +1,5 @@
 /* Стилизация аккордеона */
 .accordion__item {
-    max-width: 730px;
     padding: 24px 32px;
     margin-bottom: 8px;
     font: normal normal 400 16px/24px Inter, sans-serif;
