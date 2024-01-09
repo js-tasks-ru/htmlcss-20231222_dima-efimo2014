@@ -1,0 +1,9 @@
+.header {
+    background: var(--white);
+    padding: 96px 0 77px;
+}
+
+.header__title {
+    color: var(--black);
+    font: normal normal 500 50px/64px Inter, sans-serif;
+}
