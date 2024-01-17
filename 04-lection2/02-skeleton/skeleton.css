@@ -1,0 +1,46 @@
+.skeleton {
+    padding: 24px 40px 32px 24px;
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+}
+
+.skeleton__header {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.skeleton__avatar {
+    width: 64px;
+    height: 64px;
+    background: var(--grey-2);
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.skeleton__title {
+    width: 100%;
+}
+
+.skeleton__row {
+    height: 20px;
+    margin-bottom: 6px;
+    background: linear-gradient(93deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.skeleton__row:last-child {
+    margin-bottom: 0px;
+}
+
+.skeleton__row_small {
+    width: 40%;
+}
+
+.skeleton__row_medium {
+    width: 70%;
+}
+
+.skeleton__row_large {
+    width: 100%;
+}
