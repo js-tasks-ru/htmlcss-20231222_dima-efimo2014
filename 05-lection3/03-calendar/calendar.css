@@ -28,7 +28,7 @@
     font: normal normal 400 16px/20px Source Sans Pro, sans-serif;
 }
 
-.calendar__item_month {
+.calendar__title {
     display: flex;
     justify-content: center;
     grid-area: 1 / 1 / 2 / 8;
