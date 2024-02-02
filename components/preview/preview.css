@@ -1,4 +1,10 @@
 .preview {
-    background: #F9FAFC;
-    height: 300px;
+    background: var(--periwinkle-crayola);
+    padding: 68px 0;
+}
+
+.preview__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
