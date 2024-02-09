@@ -1,0 +1,53 @@
+.toggle__input {
+    position: absolute;
+    transform: translateX(-100vw);
+}
+
+.toggle__state {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.toggle__control {
+    width: 52px;
+    height: 28px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    background: var(--white);
+    border: 1px solid var(--grey-2);
+    border-radius: 16px;
+    transition: background 0.5s ease, border 0.5s ease;
+}
+
+.toggle__wrapper{
+    width: 24px;
+    height: 24px;
+    background: var(--grey-2);
+    border-radius: 50%;
+    transition: background 0.5s ease;
+}
+
+.toggle__title {
+    font: normal normal 400 16px/24px Inter, sans-serif;
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__control {
+    justify-content: flex-end;
+    background: var(--royal-blue);
+    border-color: var(--royal-blue);
+}
+
+.toggle__input:disabled ~ .toggle__state {
+    pointer-events: none;
+}
+
+.toggle__input:disabled ~ .toggle__state .toggle__control {
+    background: var(--grey-2);
+}
+
+.toggle__input:disabled ~ .toggle__state .toggle__title {
+    color: var(--grey-2);
+}
