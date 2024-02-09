@@ -1,6 +1,6 @@
 .checkbox__input {
     position: absolute;
-    transform: translateY(-100vh);
+    top: -100vh;
 }
 
 .checkbox__state {
